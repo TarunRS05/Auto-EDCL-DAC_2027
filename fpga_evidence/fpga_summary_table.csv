@@ -1,0 +1,27 @@
+Platform,Design,LUTs,FFs,P_inf_or_dyn_mW,P_upd_mW,E_upd_nJ,Ours_E_upd_Saving,WNS_ns
+Arty A7 (100 MHz target; 80 MHz Pwr),Static INT8 (Baseline),1800,712,21,--,--,--,+0.354
+Arty A7 (100 MHz target; 80 MHz Pwr),Auto-EDCL Core (Ours),2065,712,21,16,102.4,Ref.,+0.489
+Arty A7 (100 MHz target; 80 MHz Pwr),HybMED Core (TBioCAS'24),3035,1188,26,51,326.4,68.6%,-1.317
+Arty A7 (100 MHz target; 80 MHz Pwr),KWS'25 Core (ISSCC'25),3080,1380,26,53,339.2,69.8%,-1.200
+Arty A7 (100 MHz target; 80 MHz Pwr),BOLS Core (ISCAS'24),2670,888,33,34,217.6,52.9%,+0.145
+Arty A7 (100 MHz target; 80 MHz Pwr),FSL-HDnn Core (JSSC'26),2785,1128,23,31,198.4,48.4%,+0.128
+Arty A7 (100 MHz target; 80 MHz Pwr),Hyb-Learn Core (DAC'24),2567,1076,24,43,275.2,62.8%,-0.516
+ZCU106 (250 MHz target; 250 MHz Pwr),Static INT8 (Baseline),1845,712,39,--,--,--,+0.730
+ZCU106 (250 MHz target; 250 MHz Pwr),Auto-EDCL Core (Ours),2112,712,39,32,65.5,Ref.,+0.680
+ZCU106 (250 MHz target; 250 MHz Pwr),HybMED Core (TBioCAS'24),2802,1188,56,109,223.2,70.7%,+0.245
+ZCU106 (250 MHz target; 250 MHz Pwr),KWS'25 Core (ISSCC'25),3158,1380,62,120,245.8,73.4%,+0.113
+ZCU106 (250 MHz target; 250 MHz Pwr),BOLS Core (ISCAS'24),2719,888,58,65,133.1,50.8%,+0.547
+ZCU106 (250 MHz target; 250 MHz Pwr),FSL-HDnn Core (JSSC'26),2899,1128,52,70,143.4,54.3%,+0.553
+ZCU106 (250 MHz target; 250 MHz Pwr),Hyb-Learn Core (DAC'24),2680,1076,53,94,192.5,66.0%,+0.690
+Arty A7 Full SoC (100 MHz target; 40 MHz Pwr),Auto-EDCL SoC (Ours),2604,1444,5,--,89 mW (P_tot),Ref.,+0.160
+Arty A7 Full SoC (100 MHz target; 40 MHz Pwr),KWS'25 Full (ISSCC'25),1463,10073,33,--,117 mW (P_tot),1.4x,-0.390
+Arty A7 Full SoC (100 MHz target; 40 MHz Pwr),HybMED Full (TBioCAS'24),2519,1968,7,--,90 mW (P_tot),1.4x,-5.930
+Arty A7 Full SoC (100 MHz target; 40 MHz Pwr),FSL-HDnn Full (JSSC'26),1035,6083,21,--,105 mW (P_tot),4.2x,-0.490
+Arty A7 Full SoC (100 MHz target; 40 MHz Pwr),BOLS Full (ISCAS'24),714,498,2,--,86 mW (P_tot),--,+3.450
+Arty A7 Full SoC (100 MHz target; 40 MHz Pwr),Liu et al. Full (JSSC'25),9912,4807,22,--,106 mW (P_tot),4.4x,-7.640
+ZCU106 Full SoC (250 MHz target; 150 MHz Pwr),Auto-EDCL SoC (Ours),2667,1444,15,--,607 mW (P_tot),Ref.,+0.750
+ZCU106 Full SoC (250 MHz target; 150 MHz Pwr),KWS'25 Full (ISSCC'25),1493,587,10,--,602 mW (P_tot),--,+0.410
+ZCU106 Full SoC (250 MHz target; 150 MHz Pwr),HybMED Full (TBioCAS'24),2406,1966,19,--,611 mW (P_tot),1.3x,-0.850
+ZCU106 Full SoC (250 MHz target; 150 MHz Pwr),FSL-HDnn Full (JSSC'26),1494,993,10,--,602 mW (P_tot),--,+0.220
+ZCU106 Full SoC (250 MHz target; 150 MHz Pwr),BOLS Full (ISCAS'24),717,498,3,--,594 mW (P_tot),--,+1.980
+ZCU106 Full SoC (250 MHz target; 150 MHz Pwr),Liu et al. Full (JSSC'25),9899,4810,52,--,644 mW (P_tot),3.5x,-1.460

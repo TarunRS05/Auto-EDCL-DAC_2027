@@ -1,0 +1,24 @@
+    Hinst Name                                    Module Name                                                              Inst Count           Total Area
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+auto_edcl_core                                                                                                                  16337            10833.368
+  buffer_inst                                     temporal_window_buffer_DATA_WIDTH8_WINDOW_SIZE4                                 125               85.358
+  emrs_inst                                       emrs_streamer_DATA_WIDTH8_FIFO_DEPTH8_PTR_WIDTH3_DIV_WIDTH16_ACC_WIDTH11        494              394.667
+  sched_inst                                      event_scheduler_MAX_MARGIN64                                                     50               29.484
+  systolic_inst                                   systolic_array_DATA_WIDTH8_ACCUM_WIDTH32_ROWS4_COLS4_ARCH_MODE3_PE_TYPE1      14694             9674.756
+    systolic_inst/row[0].col[0].gen_pe_dual.pe_inst pe_dual_mode_DATA_WIDTH8_ACCUM_WIDTH32                                          636              352.079
+    systolic_inst/row[0].col[1].gen_pe_dual.pe_inst pe_dual_mode_DATA_WIDTH8_ACCUM_WIDTH32_171                                      730              417.781
+    systolic_inst/row[0].col[2].gen_pe_dual.pe_inst pe_dual_mode_DATA_WIDTH8_ACCUM_WIDTH32_170                                      739              427.882
+    systolic_inst/row[0].col[3].gen_pe_dual.pe_inst pe_dual_mode_DATA_WIDTH8_ACCUM_WIDTH32_169                                      713              408.772
+    systolic_inst/row[1].col[0].gen_pe_dual.pe_inst pe_dual_mode_DATA_WIDTH8_ACCUM_WIDTH32_15_172                                   856              506.142
+    systolic_inst/row[1].col[1].gen_pe_dual.pe_inst pe_dual_mode_DATA_WIDTH8_ACCUM_WIDTH32_15_173                                   967              707.434
+    systolic_inst/row[1].col[2].gen_pe_dual.pe_inst pe_dual_mode_DATA_WIDTH8_ACCUM_WIDTH32_15_174                                   959              709.163
+    systolic_inst/row[1].col[3].gen_pe_dual.pe_inst pe_dual_mode_DATA_WIDTH8_ACCUM_WIDTH32_15_175                                   893              588.315
+    systolic_inst/row[2].col[0].gen_pe_dual.pe_inst pe_dual_mode_DATA_WIDTH8_ACCUM_WIDTH32_15_176                                   881              552.188
+    systolic_inst/row[2].col[1].gen_pe_dual.pe_inst pe_dual_mode_DATA_WIDTH8_ACCUM_WIDTH32_15_177                                  1002              693.693
+    systolic_inst/row[2].col[2].gen_pe_dual.pe_inst pe_dual_mode_DATA_WIDTH8_ACCUM_WIDTH32_15_178                                  1028              767.312
+    systolic_inst/row[2].col[3].gen_pe_dual.pe_inst pe_dual_mode_DATA_WIDTH8_ACCUM_WIDTH32_15_179                                   937              627.263
+    systolic_inst/row[3].col[0].gen_pe_dual.pe_inst pe_dual_mode_DATA_WIDTH8_ACCUM_WIDTH32_15_180                                  1319              898.625
+    systolic_inst/row[3].col[1].gen_pe_dual.pe_inst pe_dual_mode_DATA_WIDTH8_ACCUM_WIDTH32_15_181                                   922              593.684
+    systolic_inst/row[3].col[2].gen_pe_dual.pe_inst pe_dual_mode_DATA_WIDTH8_ACCUM_WIDTH32_15_182                                  1019              722.085
+    systolic_inst/row[3].col[3].gen_pe_dual.pe_inst pe_dual_mode_DATA_WIDTH8_ACCUM_WIDTH32_15                                       944              604.331
+  uadt_inst                                       uadt_detector_DATA_WIDTH8_MAG_WIDTH7_NOISE_FLOOR7h20_DECAY_SHIFT4               544              347.347

@@ -1,0 +1,8 @@
+    Hinst Name       Module Name                                                 Inst Count           Total Area
+-------------------------------------------------------------------------------------------------------------
+sota_snn_bols_full                                                                     3796             2843.568
+  u_dftt             snn_dftt_engine_NUM_NEURONS16_NUM_CLASSES4                          91              100.100
+  u_encoder          snn_spike_encoder_DATA_WIDTH8                                       86               58.422
+  u_fsm              snn_fsm_ctrl                                                        27               14.105
+  u_lif_array        snn_lif_array_16_NUM_NEURONS16_NUM_TIMESTEPS16                    3071             2310.126
+  u_router           snn_spike_router_NUM_NEURONS16_NUM_TIMESTEPS16_NUM_CLASSES4        421              246.701

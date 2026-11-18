@@ -1,0 +1,8 @@
+Modality,Auto-EDCL Acc (%),Auto-EDCL Energy (%),Auto-EDCL SRAM (KB),DeepBurning-MixQ Acc (%),DeepBurning-MixQ Energy (%),SENNA Acc (%),SENNA Energy (%),Energy Savings vs MixQ (%),Energy Savings vs SENNA (%),Parameter Reduction
+ECG Arrhythmia,95.83%,58.47%,6.05 KB,95.17%,78.00%,94.67%,100.00%,-25.0%,-41.5%,4.3x smaller
+EEG Neurological,94.00%,58.23%,7.05 KB,93.00%,79.50%,92.17%,100.00%,-26.8%,-41.8%,4.3x smaller
+EMG Hand Grasp,93.00%,58.84%,5.76 KB,92.17%,78.00%,91.50%,100.00%,-24.6%,-41.2%,4.2x smaller
+Audio KWS,93.33%,56.99%,8.14 KB,91.17%,77.00%,91.83%,100.00%,-26.0%,-43.0%,4.2x smaller
+IMU Fall / HAR,92.00%,63.39%,4.87 KB,91.33%,80.00%,90.67%,100.00%,-20.8%,-36.6%,4.5x smaller
+Bearing Fault,97.67%,59.06%,5.61 KB,97.00%,78.00%,96.50%,100.00%,-24.3%,-40.9%,4.4x smaller
+Smart Grid PQD,99.17%,67.44%,5.28 KB,98.00%,78.50%,97.00%,100.00%,-14.1%,-32.6%,6.3x smaller

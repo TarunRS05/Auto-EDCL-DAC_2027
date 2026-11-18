@@ -1,0 +1,8 @@
+    Hinst Name       Module Name                                              Inst Count           Total Area
+----------------------------------------------------------------------------------------------------------
+sota_hybmed_full                                                                   27027            21937.734
+  u_dfa_engine       hybmed_dfa_engine_NUM_PES32                                    8817             7589.764
+  u_fsm              hybmed_fsm_ctrl                                                  29               16.653
+  u_pe_array         hybmed_pe_array_32_DATA_WIDTH8_NUM_PES32_CUS_PER_PE4           5315             5539.989
+  u_prng             hybmed_xoroshiro_prng                                           875              624.078
+  u_sram_subsystem   hybmed_pingpong_sram_DATA_WIDTH8_NUM_PES32_SRAM_DEPTH256        941             1781.052

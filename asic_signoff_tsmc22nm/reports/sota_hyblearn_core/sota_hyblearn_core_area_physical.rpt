@@ -1,0 +1,24 @@
+    Hinst Name                                        Module Name                                                              Inst Count           Total Area
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+sota_hyblearn_core                                                                                                                  34376            20734.441
+  buffer_inst                                         temporal_window_buffer_DATA_WIDTH8_WINDOW_SIZE4                                 132               98.462
+  emrs_inst                                           emrs_streamer_DATA_WIDTH8_FIFO_DEPTH8_PTR_WIDTH3_DIV_WIDTH16_ACC_WIDTH11        499              396.669
+  sched_inst                                          event_scheduler_MAX_MARGIN64                                                     50               29.484
+  systolic_inst                                       systolic_array_DATA_WIDTH8_ACCUM_WIDTH32_ROWS4_COLS4_ARCH_MODE3_PE_TYPE6      21542            17066.049
+    systolic_inst/row[0].col[0].gen_pe_hyblearn.pe_inst pe_sota_hyblearn_DATA_WIDTH8_ACCUM_WIDTH32                                     1457             1073.436
+    systolic_inst/row[0].col[1].gen_pe_hyblearn.pe_inst pe_sota_hyblearn_DATA_WIDTH8_ACCUM_WIDTH32_156                                 1067              881.517
+    systolic_inst/row[0].col[2].gen_pe_hyblearn.pe_inst pe_sota_hyblearn_DATA_WIDTH8_ACCUM_WIDTH32_155                                 1142              890.708
+    systolic_inst/row[0].col[3].gen_pe_hyblearn.pe_inst pe_sota_hyblearn_DATA_WIDTH8_ACCUM_WIDTH32_154                                 1110              850.395
+    systolic_inst/row[1].col[0].gen_pe_hyblearn.pe_inst pe_sota_hyblearn_DATA_WIDTH8_ACCUM_WIDTH32_15_157                              1431             1101.100
+    systolic_inst/row[1].col[1].gen_pe_hyblearn.pe_inst pe_sota_hyblearn_DATA_WIDTH8_ACCUM_WIDTH32_15_158                              1353             1073.800
+    systolic_inst/row[1].col[2].gen_pe_hyblearn.pe_inst pe_sota_hyblearn_DATA_WIDTH8_ACCUM_WIDTH32_15_159                              1429             1255.254
+    systolic_inst/row[1].col[3].gen_pe_hyblearn.pe_inst pe_sota_hyblearn_DATA_WIDTH8_ACCUM_WIDTH32_15_160                              1273              943.761
+    systolic_inst/row[2].col[0].gen_pe_hyblearn.pe_inst pe_sota_hyblearn_DATA_WIDTH8_ACCUM_WIDTH32_15_161                              1423             1076.803
+    systolic_inst/row[2].col[1].gen_pe_hyblearn.pe_inst pe_sota_hyblearn_DATA_WIDTH8_ACCUM_WIDTH32_15_162                              1391             1091.454
+    systolic_inst/row[2].col[2].gen_pe_hyblearn.pe_inst pe_sota_hyblearn_DATA_WIDTH8_ACCUM_WIDTH32_15_163                              1405             1264.900
+    systolic_inst/row[2].col[3].gen_pe_hyblearn.pe_inst pe_sota_hyblearn_DATA_WIDTH8_ACCUM_WIDTH32_15_164                              1295              969.241
+    systolic_inst/row[3].col[0].gen_pe_hyblearn.pe_inst pe_sota_hyblearn_DATA_WIDTH8_ACCUM_WIDTH32_15_165                              1472             1137.500
+    systolic_inst/row[3].col[1].gen_pe_hyblearn.pe_inst pe_sota_hyblearn_DATA_WIDTH8_ACCUM_WIDTH32_15_166                              1469             1264.354
+    systolic_inst/row[3].col[2].gen_pe_hyblearn.pe_inst pe_sota_hyblearn_DATA_WIDTH8_ACCUM_WIDTH32_15_167                              1417             1167.075
+    systolic_inst/row[3].col[3].gen_pe_hyblearn.pe_inst pe_sota_hyblearn_DATA_WIDTH8_ACCUM_WIDTH32_15                                  1248              893.711
+  uadt_inst                                           uadt_detector_DATA_WIDTH8_MAG_WIDTH7_NOISE_FLOOR7h20_DECAY_SHIFT4               470              272.636

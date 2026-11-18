@@ -1,0 +1,14 @@
+design,cells,area_um2,internal_mw,switching_mw,leakage_mw,total_mw,setup_wns_ns,activity,corner,target_mhz
+baseline_static_core,14218,9978.332,2.67870717,2.06424672,0.34026926,5.08322315,0.004,vectorless; default input activity 0.2,SSG 0.63 V 125 C,1000
+auto_edcl_core,16337,10833.368,2.62384054,2.00237508,0.36402998,4.9902456,0.028,vectorless; default input activity 0.2,SSG 0.63 V 125 C,1000
+sota_hybmed_core,23672,17728.165,4.88066648,3.80194943,0.60155551,9.28417142,0.004,vectorless; default input activity 0.2,SSG 0.63 V 125 C,1000
+sota_isscc25_core,23656,17208.737,5.20498449,4.09846634,0.58327137,9.8867222,0.004,vectorless; default input activity 0.2,SSG 0.63 V 125 C,1000
+sota_bols_core,20237,14580.384,3.67956553,2.94128495,0.50576979,7.12662028,0.004,vectorless; default input activity 0.2,SSG 0.63 V 125 C,1000
+sota_fsl_hdnn_core,22067,14862.211,5.13420161,4.08703837,0.5093103,9.73055028,0.004,vectorless; default input activity 0.2,SSG 0.63 V 125 C,1000
+sota_hyblearn_core,23131,18175.976,4.7367535,3.80668501,0.61611411,9.15955262,0.004,vectorless; default input activity 0.2,SSG 0.63 V 125 C,1000
+auto_edcl_soc,19535,13572.923,4.16147612,3.22920755,0.44967901,7.84036268,0.004,vectorless; default input activity 0.2,SSG 0.63 V 125 C,1000
+sota_isscc25_full,17295,20272.525,12.24906896,6.77081688,0.60990601,19.62979185,0.029,vectorless; default input activity 0.2,SSG 0.63 V 125 C,1000
+sota_hybmed_full,17640,16617.328,8.38416328,6.88924651,0.57347264,15.84688242,0.004,vectorless; default input activity 0.2,SSG 0.63 V 125 C,1000
+sota_fsl_hdnn_full,9300,11980.969,7.0685955,3.92523303,0.34873835,11.34256688,0.029,vectorless; default input activity 0.2,SSG 0.63 V 125 C,1000
+sota_snn_bols_full,3796,2843.568,0.93170139,0.67617603,0.07887102,1.68674844,0.103,vectorless; default input activity 0.2,SSG 0.63 V 125 C,1000
+sota_liu_full,17896,20595.12,11.15004575,5.68328609,0.56026045,17.39359229,0.059,vectorless; default input activity 0.2,SSG 0.63 V 125 C,1000

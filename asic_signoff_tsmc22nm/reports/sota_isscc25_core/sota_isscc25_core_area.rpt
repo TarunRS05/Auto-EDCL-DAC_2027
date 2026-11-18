@@ -1,0 +1,24 @@
+    Hinst Name                                       Module Name                                                              Inst Count           Total Area
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+sota_isscc25_core                                                                                                                  23656            17208.737
+  buffer_inst                                        temporal_window_buffer_DATA_WIDTH8_WINDOW_SIZE4                                 144               92.911
+  emrs_inst                                          emrs_streamer_DATA_WIDTH8_FIFO_DEPTH8_PTR_WIDTH3_DIV_WIDTH16_ACC_WIDTH11        482              399.126
+  sched_inst                                         event_scheduler_MAX_MARGIN64                                                     55               34.307
+  systolic_inst                                      systolic_array_DATA_WIDTH8_ACCUM_WIDTH32_ROWS4_COLS4_ARCH_MODE3_PE_TYPE3      22064            16077.061
+    systolic_inst/row[0].col[0].gen_pe_isscc25.pe_inst pe_sota_isscc25_kws_DATA_WIDTH8_ACCUM_WIDTH32                                  1150              970.151
+    systolic_inst/row[0].col[1].gen_pe_isscc25.pe_inst pe_sota_isscc25_kws_DATA_WIDTH8_ACCUM_WIDTH32_178                              1197              934.570
+    systolic_inst/row[0].col[2].gen_pe_isscc25.pe_inst pe_sota_isscc25_kws_DATA_WIDTH8_ACCUM_WIDTH32_177                              1132              820.456
+    systolic_inst/row[0].col[3].gen_pe_isscc25.pe_inst pe_sota_isscc25_kws_DATA_WIDTH8_ACCUM_WIDTH32_176                              1013              682.409
+    systolic_inst/row[1].col[0].gen_pe_isscc25.pe_inst pe_sota_isscc25_kws_DATA_WIDTH8_ACCUM_WIDTH32_15_179                           1396             1152.151
+    systolic_inst/row[1].col[1].gen_pe_isscc25.pe_inst pe_sota_isscc25_kws_DATA_WIDTH8_ACCUM_WIDTH32_15_180                           1353              987.896
+    systolic_inst/row[1].col[2].gen_pe_isscc25.pe_inst pe_sota_isscc25_kws_DATA_WIDTH8_ACCUM_WIDTH32_15_181                           1300              879.970
+    systolic_inst/row[1].col[3].gen_pe_isscc25.pe_inst pe_sota_isscc25_kws_DATA_WIDTH8_ACCUM_WIDTH32_15_182                           1266              811.174
+    systolic_inst/row[2].col[0].gen_pe_isscc25.pe_inst pe_sota_isscc25_kws_DATA_WIDTH8_ACCUM_WIDTH32_15_183                           1363             1055.782
+    systolic_inst/row[2].col[1].gen_pe_isscc25.pe_inst pe_sota_isscc25_kws_DATA_WIDTH8_ACCUM_WIDTH32_15_184                           1335              957.047
+    systolic_inst/row[2].col[2].gen_pe_isscc25.pe_inst pe_sota_isscc25_kws_DATA_WIDTH8_ACCUM_WIDTH32_15_185                           1352              869.414
+    systolic_inst/row[2].col[3].gen_pe_isscc25.pe_inst pe_sota_isscc25_kws_DATA_WIDTH8_ACCUM_WIDTH32_15_186                           1249              825.097
+    systolic_inst/row[3].col[0].gen_pe_isscc25.pe_inst pe_sota_isscc25_kws_DATA_WIDTH8_ACCUM_WIDTH32_15_187                           1329             1079.533
+    systolic_inst/row[3].col[1].gen_pe_isscc25.pe_inst pe_sota_isscc25_kws_DATA_WIDTH8_ACCUM_WIDTH32_15_188                           1370             1035.853
+    systolic_inst/row[3].col[2].gen_pe_isscc25.pe_inst pe_sota_isscc25_kws_DATA_WIDTH8_ACCUM_WIDTH32_15_189                           1380              985.803
+    systolic_inst/row[3].col[3].gen_pe_isscc25.pe_inst pe_sota_isscc25_kws_DATA_WIDTH8_ACCUM_WIDTH32_15                               1285              908.999
+  uadt_inst                                          uadt_detector_DATA_WIDTH8_MAG_WIDTH7_NOISE_FLOOR7h20_DECAY_SHIFT4               433              248.066

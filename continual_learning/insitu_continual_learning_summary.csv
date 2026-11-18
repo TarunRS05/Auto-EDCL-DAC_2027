@@ -1,0 +1,6 @@
+Benchmark Task,SOTA Baseline,SOTA Acc,Auto-EDCL (Ours),Acc Gain,Memory Overhead,Update Arithmetic
+Sequential HAR (UCI HAR),Hyb-Learn (DAC'24),86.75%,90.65%,+3.90 pp,0 KB extra SRAM (vs 360 RRAM swaps),In-place folded-XOR Sign-SGD
+Few-Shot Bearing (CWRU),FSL-HDnn (JSSC'26),86.41%,95.35%,+8.94 pp,0 KB extra SRAM (vs 24-424 KB HDC mem),Prototype shift / Sign-SGD
+35-Word Speech KWS,KWS'25 (ISSCC'25),90.62%,95.62%,+5.00 pp,0 KB extra SRAM (vs 4.9 KB replay cache),Sign-SGD (0 backward mults)
+Multi-Channel sEMG,HybMED (TBioCAS'24),88.12%,97.25%,+9.13 pp,0 KB extra SRAM (vs 32 KB training SRAM),1-bit XNOR CDFA substitute
+MIT-BIH Arrhythmia ECG,BOLS (ISCAS'24),92.00%,97.00%,+5.00 pp,0 KB extra SRAM (vs 2.18x power surge),Dead-time bubble Sign-SGD

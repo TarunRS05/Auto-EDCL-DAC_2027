@@ -1,0 +1,17 @@
+# System & OS files
+.DS_Store
+Thumbs.db
+
+# Build & Simulation artifacts
+sim/build/
+*.out
+*.vvp
+*.vcd
+*.saif
+*.log
+*.key
+*.cmd
+
+# Python cache
+__pycache__/
+*.pyc

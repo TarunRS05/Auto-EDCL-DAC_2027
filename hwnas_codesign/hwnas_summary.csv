@@ -1,0 +1,8 @@
+Search Method / Framework,Search Time (GPU-h),Signoff rho,HAR Acc / F1 (%),Mean Params / SRAM,Rel. BOPs / Energy,Ours Saving (Cost / Speed)
+Topology Only (MCUNet),0.45 h,0.962,83.4 / 83.2,2374 (2.3 KB),0.452 BOPs,Baseline
+Sequential (HAQ),0.90 h,0.962,86.0 / 85.8,3025 (3.0 KB),0.522 BOPs,-15.5% BOPs
+Joint Co-Design (Ours HAR),0.45 h,0.962,84.2 / 83.9,2122 (2.1 KB),0.345 BOPs,23.7% / 34.0%
+SENNA (ACM TECS'25),6.20 h,0.789,90.7 (93.5%*),28.4K (27.7 KB),100.0% E,40.6% E / 13.8x
+DANCE++ (IEEE TCAD'24),5.40 h,0.891,91.5 (94.3%*),21.8K (21.3 KB),94.5% E,37.1% E / 12.0x
+DeepBurning-MixQ (ICCAD'23),3.90 h,0.845,91.3 (94.0%*),13.1K (12.8 KB),78.4% E,24.2% E / 8.7x
+Auto-EDCL 7-Modality Joint (Ours),0.45 h,0.962,92.0 (95.0%*),6.15K (6.0 KB),59.4% E,4.2-6.3x smaller

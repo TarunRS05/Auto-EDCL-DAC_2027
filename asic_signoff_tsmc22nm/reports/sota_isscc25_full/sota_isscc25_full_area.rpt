@@ -1,0 +1,7 @@
+    Hinst Name       Module Name                                                             Inst Count           Total Area
+-------------------------------------------------------------------------------------------------------------------------
+sota_isscc25_full                                                                                 17295            20272.525
+  u_conv_engine      isscc25_conv_array_DATA_WIDTH8_WEIGHT_WIDTH4_CHANNELS16_FEAT_DIM16             566              719.992
+  u_fc_engine        isscc25_fc_train_engine_FEAT_DIM16_NUM_CLASSES35_FC_WIDTH8_PROTO_WIDTH9      11758            16184.259
+  u_sequencer        isscc25_micro_sequencer                                                         89               46.319
+  u_sinc_fe          isscc25_sinc_fe_DATA_WIDTH8_CHANNELS16                                        4488             3032.484

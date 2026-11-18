@@ -1,0 +1,24 @@
+    Hinst Name                                        Module Name                                                              Inst Count           Total Area
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+sota_fsl_hdnn_core                                                                                                                  22067            14862.211
+  buffer_inst                                         temporal_window_buffer_DATA_WIDTH8_WINDOW_SIZE4                                 144              117.754
+  emrs_inst                                           emrs_streamer_DATA_WIDTH8_FIFO_DEPTH8_PTR_WIDTH3_DIV_WIDTH16_ACC_WIDTH11        510              410.865
+  sched_inst                                          event_scheduler_MAX_MARGIN64                                                     50               29.484
+  systolic_inst                                       systolic_array_DATA_WIDTH8_ACCUM_WIDTH32_ROWS4_COLS4_ARCH_MODE3_PE_TYPE5      20433            13671.658
+    systolic_inst/row[0].col[0].gen_pe_fsl_hdnn.pe_inst pe_sota_fsl_hdnn_DATA_WIDTH8_ACCUM_WIDTH32                                     1172              708.981
+    systolic_inst/row[0].col[1].gen_pe_fsl_hdnn.pe_inst pe_sota_fsl_hdnn_DATA_WIDTH8_ACCUM_WIDTH32_154                                 1141              704.340
+    systolic_inst/row[0].col[2].gen_pe_fsl_hdnn.pe_inst pe_sota_fsl_hdnn_DATA_WIDTH8_ACCUM_WIDTH32_153                                 1145              690.872
+    systolic_inst/row[0].col[3].gen_pe_fsl_hdnn.pe_inst pe_sota_fsl_hdnn_DATA_WIDTH8_ACCUM_WIDTH32_152                                  946              579.033
+    systolic_inst/row[1].col[0].gen_pe_fsl_hdnn.pe_inst pe_sota_fsl_hdnn_DATA_WIDTH8_ACCUM_WIDTH32_15_155                              1513             1003.093
+    systolic_inst/row[1].col[1].gen_pe_fsl_hdnn.pe_inst pe_sota_fsl_hdnn_DATA_WIDTH8_ACCUM_WIDTH32_15_156                              1231              783.783
+    systolic_inst/row[1].col[2].gen_pe_fsl_hdnn.pe_inst pe_sota_fsl_hdnn_DATA_WIDTH8_ACCUM_WIDTH32_15_157                              1274              796.614
+    systolic_inst/row[1].col[3].gen_pe_fsl_hdnn.pe_inst pe_sota_fsl_hdnn_DATA_WIDTH8_ACCUM_WIDTH32_15_158                              1188              769.678
+    systolic_inst/row[2].col[0].gen_pe_fsl_hdnn.pe_inst pe_sota_fsl_hdnn_DATA_WIDTH8_ACCUM_WIDTH32_15_159                              1512             1270.269
+    systolic_inst/row[2].col[1].gen_pe_fsl_hdnn.pe_inst pe_sota_fsl_hdnn_DATA_WIDTH8_ACCUM_WIDTH32_15_160                              1304              878.696
+    systolic_inst/row[2].col[2].gen_pe_fsl_hdnn.pe_inst pe_sota_fsl_hdnn_DATA_WIDTH8_ACCUM_WIDTH32_15_161                              1219              761.215
+    systolic_inst/row[2].col[3].gen_pe_fsl_hdnn.pe_inst pe_sota_fsl_hdnn_DATA_WIDTH8_ACCUM_WIDTH32_15_162                              1112              688.779
+    systolic_inst/row[3].col[0].gen_pe_fsl_hdnn.pe_inst pe_sota_fsl_hdnn_DATA_WIDTH8_ACCUM_WIDTH32_15_163                              1795             1483.755
+    systolic_inst/row[3].col[1].gen_pe_fsl_hdnn.pe_inst pe_sota_fsl_hdnn_DATA_WIDTH8_ACCUM_WIDTH32_15_164                              1278              843.115
+    systolic_inst/row[3].col[2].gen_pe_fsl_hdnn.pe_inst pe_sota_fsl_hdnn_DATA_WIDTH8_ACCUM_WIDTH32_15_165                              1233              777.595
+    systolic_inst/row[3].col[3].gen_pe_fsl_hdnn.pe_inst pe_sota_fsl_hdnn_DATA_WIDTH8_ACCUM_WIDTH32_15                                  1228              800.345
+  uadt_inst                                           uadt_detector_DATA_WIDTH8_MAG_WIDTH7_NOISE_FLOOR7h20_DECAY_SHIFT4               466              285.285

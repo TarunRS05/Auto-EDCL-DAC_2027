@@ -1,0 +1,7 @@
+    Hinst Name       Module Name                                Inst Count           Total Area
+--------------------------------------------------------------------------------------------
+sota_fsl_hdnn_full                                                   18422            26216.463
+  u_backend          fsl_serial_backend_HV_DIM512_NUM_CLASSES10       6719             8970.962
+  u_crp              fsl_crp_lfsr_engine_FEAT_DIM64_HV_DIM512         1849             1963.143
+  u_fe               fsl_clustered_fe_FEAT_DIM64                       520              825.006
+  u_fsm              fsl_episode_fsm                                    35               20.475

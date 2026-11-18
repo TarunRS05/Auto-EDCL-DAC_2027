@@ -1,0 +1,6 @@
+Framework,Venue,Search Time (hrs),Speedup vs SOTA,Spearman rho (EDA Signoff),Front-End CSR Co-Search,Pareto Hypervolume (HV),Avg SRAM (KB),Rel Energy (%)
+SENNA (ACM TECS '25),ACM TECS 2025,6.20 h,13.8x,0.789,NO (Fixed AFE),0.612,27.73 KB,100.0%
+DANCE++ (IEEE TCAD '26),IEEE TCAD 2026,5.40 h,12.0x,0.891,NO (Fixed AFE),0.694,21.29 KB,94.5%
+NAF (IEEE/ACM DATE '23),DATE 2023,4.80 h,10.7x,0.812,NO (Fixed AFE),0.648,23.54 KB,98.2%
+DeepBurning-MixQ (ICCAD '23),ICCAD 2023,3.90 h,8.7x,0.845,NO (Fixed AFE),0.762,12.80 KB,78.4%
+Auto-EDCL HW-NAS (Ours),DAC 2027 (This Work),0.45 h,Baseline (1.0x),0.962,YES (PicoRV32 CSRs),0.915,6.01 KB,59.4%

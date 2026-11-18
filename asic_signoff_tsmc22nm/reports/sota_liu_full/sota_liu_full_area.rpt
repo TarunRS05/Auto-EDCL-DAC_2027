@@ -1,0 +1,19 @@
+    Hinst Name       Module Name              Inst Count           Total Area
+--------------------------------------------------------------------------
+sota_liu_full                                      17896            20595.120
+  lanes[0].mul       sota_liu_hybrid_mul             235              143.780
+  lanes[10].mul      sota_liu_hybrid_mul_3211        136               77.805
+  lanes[11].mul      sota_liu_hybrid_mul_3210        150               80.717
+  lanes[12].mul      sota_liu_hybrid_mul_3209        258              147.693
+  lanes[13].mul      sota_liu_hybrid_mul_3208        161               88.907
+  lanes[14].mul      sota_liu_hybrid_mul_3207        247              153.881
+  lanes[15].mul      sota_liu_hybrid_mul_3206        216              115.388
+  lanes[1].mul       sota_liu_hybrid_mul_3220        154               85.995
+  lanes[2].mul       sota_liu_hybrid_mul_3219        137               72.618
+  lanes[3].mul       sota_liu_hybrid_mul_3218        166               93.548
+  lanes[4].mul       sota_liu_hybrid_mul_3217        176               90.727
+  lanes[5].mul       sota_liu_hybrid_mul_3216        144               81.263
+  lanes[6].mul       sota_liu_hybrid_mul_3215        161               86.359
+  lanes[7].mul       sota_liu_hybrid_mul_3214        159               89.999
+  lanes[8].mul       sota_liu_hybrid_mul_3213        231              138.684
+  lanes[9].mul       sota_liu_hybrid_mul_3212        162               91.364
